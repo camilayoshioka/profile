@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&display=swap');
+
+body {
+  color: #8294C4;
+  background-color: #DBDFEA;
+  text-align: center;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Caveat', cursive;
+  color: #8294C4;
+  margin-bottom: 0px;
+}
+
+h2, h3 {
+  font-family: 'Bree Serif', serif;
+  color: #8294C4;
+}
+
+p {
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+}
+
+#avatar {
+  height: 200px;
+  border-radius: 15%;
+}
+
+.card {
+  border-radius: 5%;
+  background-color: #FFEAD2;
+  padding: 0px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 0%;
+}
+
+.list {
+  list-style: none;
+  display: inline-flex;
+  font-size: 50px;
+  list-style: none;
+  text-align: center;
+}
+
+.list li {
+margin: 0 25px;
+}
+
+.button-74 {
+  background-color: #DBDFEA;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
